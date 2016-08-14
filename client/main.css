@@ -1,0 +1,190 @@
+
+body {
+  font-family: sans-serif;
+  background-color: ;
+  background-image: ;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+#video-background {
+  width:115%;
+  top: 0;
+  padding: none;
+  position: fixed;
+  z-index: -1;
+}
+
+.welcome {
+  text-align:center;
+  font-weight: bold;
+  color:white;
+  position: fixed;
+  margin-top:200px;
+  margin-left:18%;
+  margin-right:auto;
+  display: inline-block;
+}
+
+#chosenimg {
+  height:300px;
+  width:500px;
+}
+
+
+/*HIRO's Code*/
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: white;
+  padding-top: 70px;
+}
+
+nav {
+  background-color:#333;
+  position:fixed;
+  z-index: 1000;
+}
+
+.nav-wrapper {
+  background-color:#333;
+  z-index: 1000;
+}
+
+a.brand-logo {
+  margin-left: 30px;
+}
+
+#login-sign-in-link {
+  margin-top:20px;
+  margin-right:200px;
+}
+
+#nav-mobile {
+  width:65%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#signedIn {
+  margin-top:23px;
+}
+
+.input-field input[type=text]:focus + label {
+  color: #333;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #333;
+  box-shadow: 0 1.5px 0 0 #333;
+}
+
+.input-field input[type=text].valid {
+  border-bottom: 1px solid #333;
+  box-shadow: 0 1.5px 0 0 #333;
+}
+
+.input-field input[type=text].invalid {
+  border-bottom: 1px solid red;
+  box-shadow: 0 1.5px 0 0 red;
+}
+
+.materialize-textarea {
+    color: #333;
+}
+
+.input-field textarea [type=text]:focus {
+  border-bottom: 1px solid #333;
+  box-shadow: 0 1.5px 0 0 #333;
+}
+
+.tourPhoto{
+  float:right;
+  max-width: 450px;
+  max-height: 230px;
+  position:inherit;
+  top: 20px;
+}
+.guideList{
+  min-height: 285px;
+  margin: 10px;
+}
+
+#tourList {
+  float: left;
+  width: 40%
+}
+.tourList{
+  margin-bottom: 15px;
+  background-color:#666666;
+  color:white;
+}
+
+
+/*End Hiro's Code*/
+#mapDiv {
+  float: right;
+  padding-top: 45px;
+  position: fixed;
+  left: 45%;
+}
+
+#noToursMsg {
+  text-align: center;
+  padding-top: 130px;
+}
+
+li button, li form {
+  display: inline;
+  margin-right: 15px;
+}
+
+#startTourBtn {
+  display: block;
+  margin-top: 10px;
+}
+
+#login-buttons {
+  display: block;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+#signin {
+  float:right;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+}
+
+@media (max-width: 600px) {
+  li {
+    padding: 12px 15px;
+  }
+}
