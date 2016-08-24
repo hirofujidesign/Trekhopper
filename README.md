@@ -2,6 +2,8 @@
 
 Local Tour Guide web app. Allows anyone with knowledge of a local area to be a tour guide and post tours. Users/tourists can then visit the site and sign up for tours they are interested in.
 
+https://trekhopper.herokuapp.com/
+
 ## Screenshots
 Include a one or two screenshots of main UI/UX points of your app and how it solves a problem
 
